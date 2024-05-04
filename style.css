@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 120px;
+    height: 100vh;
+    background: burlywood;
+    color: rgb(210, 205, 255);
+}
+.container p{
+    padding: 5px;
+}
+.container p:hover ,button:hover{
+    background: black;
+    cursor: pointer;
+}
+button{
+    border-radius: 5px;
+    background: burlywood;
+    color: rgb(210, 205, 255);
+    border: none;
+}
+#close{
+position: absolute;
+left: 125px;
+}
+.hide {
+    display: none;
+}
